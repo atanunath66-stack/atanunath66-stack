@@ -1,4 +1,5 @@
 
+
 name: Generate GitHub Metrics
 
 on:
@@ -32,28 +33,14 @@ jobs:
 
           filename: github-metrics.svg
 
-          # 3D contribution calendar
+          # 3D Contribution Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Programming languages
+          # Programming Languages
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
 
-          # Coding habits
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
-
-          # Recent activity
-          plugin_activity: yes
-          plugin_activity_limit: 5
-
-          # Lines of code
+          # Lines of Code
           plugin_lines: yes
